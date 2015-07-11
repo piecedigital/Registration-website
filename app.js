@@ -5,7 +5,7 @@ var express 		 = require("express"),
 		cookieParser = require('cookie-parser'),
 		bodyParser 	 = require('body-parser'),
 		helmet       = require("helmet"),
-		port 				 = process.env["port"] || 8080;
+		port 				 = process.env["PORT"] || 8080;
 
 var app = express();
 
