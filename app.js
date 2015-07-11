@@ -1,6 +1,6 @@
 var express 		 = require("express"),
 		path 				 = require("path"),
-		//favicon 		 = require('serve-favicon'),
+		favicon 		 = require('serve-favicon'),
 		logger 			 = require('morgan'),
 		cookieParser = require('cookie-parser'),
 		bodyParser 	 = require('body-parser'),
@@ -16,7 +16,7 @@ app.set("view options", { layout: "layout" });
 
 // config
 // uncomment after placing your favicon in /public
-//app.use(favicon(__dirname + '/public/favicon.ico'));
+app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
