@@ -1,0 +1,24 @@
+<section>
+	<div class="page-wrap">
+		<div class="form-box x-pad-1_0 y-pad-1_0 center-justify mid-blue-bg border-radius-0_5">
+			<h1 class="very-light-blue">Register</h1>
+			<br><br>
+			<div id="sign-up-in" class="border-radius-0_5">
+				<div id="signup">
+					<form action="/submit-info" method="POST" class="x-pad-0_5">
+						<input type="text" name="email" placeholder="email" value="piecedigitalstudios@gmail.com">
+						<input type="text" name="first-name" placeholder="First name" value="First">
+						<input type="text" name="last-name" placeholder="Last name" value="Name">
+						<select name="set">
+							<option selected>Soprano</option>
+							<option>Alto</option>
+							<option>Tenner</option>
+						</select>
+						<button>Submit</button>
+					</form>
+				</div>
+			</div>
+			<span id="err-msg">{{msg}}</span>
+		</div>
+	</div>
+</section>
