@@ -16,12 +16,12 @@ app.set("view options", { layout: "layout" });
 
 // config
 // uncomment after placing your favicon in /public
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(favicon(__dirname + '/public/logo.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
 app.disable("x-powered-by");
 app.use(helmet());
 app.use(helmet.contentSecurityPolicy({
