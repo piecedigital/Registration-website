@@ -93,6 +93,9 @@ section {
 
 .right-justify {
   text-align: right; }
+  
+.margin-center {
+  margin: 0 auto; }
 
 .align-top {
   vertical-align: top; }
@@ -465,7 +468,6 @@ body.home #home {
 
 #sign-up-in {
   position: relative;
-  background: #9be0ff;
   z-index: 1; }
 
 /* footer ----------------------------*/
