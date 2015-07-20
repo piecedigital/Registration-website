@@ -20,6 +20,7 @@
     "hbs": "^3.1.0",
     "helmet": "^0.9.1",
     "morgan": "^1.6.0",
+    "node-sass": "^3.2.0",
     "nodemailer": "^1.4.0",
     "nodemailer-smtp-transport": "^1.0.3",
     "path": "^0.11.14",
