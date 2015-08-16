@@ -7,10 +7,10 @@ var app = require('express')(),
 
 var transporter = nodemailer.createTransport(smtpTransport({
 	host: "smtp.mandrillapp.com",
-	port: 587,
+	port: [redacted]],
 	auth: {
 		user: "piecedigitalstudios@gmail.com",
-		pass: "Mm-qP4gRtGxbda4aBYLDVg"
+		pass: "[redacted]]"
 	}
 }));
 
